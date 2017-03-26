@@ -1,4 +1,4 @@
-# reading-group-up-site
+# reading-group-site
 The Reading UK group of freeCodeCamp
 
   ## About this project
