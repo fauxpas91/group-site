@@ -7,7 +7,7 @@ The Reading UK group of freeCodeCamp
   ## How can you join this project?
   If you have not used Git or Github before then there is a bit of "legwork" to do. You should skip to the section of this README headed Resources watch some videos and or do some reading and rejoin here later.
 
-  If you are somewhat familiar with Git and Github then I suggest you plough on. Here a condensed guide, but you should refer to the resources below:
+  If you are somewhat familiar with Git and Github then I suggest you plough on. Here is a condensed guide, but you should refer to the resources below:
    - Install Git on machine. I prefer the Unix type console, if you are using a Windows box, which you get when you install Git Bash. [see Resources - How to install Git Bash in Windows].
    - Fork this repository at [https://github.com/fcc-reading](https://github.com/fcc-reading)
    - Check your Git is installed. Do git --version which should return the version number you installed.
