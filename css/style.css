@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 98.7vw;
+}
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #006400;
+  color: white;
+}
+main.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+.page {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+main.container, #about {
+  background-color: tan;
+}
+#site-dev-roles {
+  background-color: lime;
+}
+#contact {
+  background-color: blueviolet;
+}
+.gallery {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.photo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 170px;
+  min-height: 240px;
+  padding: 5px;
+  background-position: center center;
+  background-size: cover;
+}
+.photo:first-child, .photo:nth-child(2n+3) {
+  background-color: antiquewhite;
+  background-image: url('../img/monroe.png');
+}
+.photo:nth-child(2n+2) {
+  background-color: coral;
+  background-image: url('../img/shadowman.png');
+}
+.photo img {
+  display: inline-block;
+  padding: 3px;
+  width: 160px;
+  height: 160px;
+}
